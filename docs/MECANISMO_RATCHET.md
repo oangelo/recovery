@@ -60,23 +60,35 @@ O mecanismo **linear ratchet and pawl** é responsável por reter e liberar a po
 
 ### 2.5 Protótipo Alpha
 
-<table>
-  <tr>
-    <td><img src="./imagens/ratchet_alpha_pawl_frontal.jpg" width="300" alt="Pawl - Vista Frontal"></td>
-    <td><img src="./imagens/ratchet_alpha_pawl_traseira.jpg" width="300" alt="Pawl - Vista Traseira"></td>
-    <td><img src="./imagens/ratchet_alpha_pawl_lateral.jpg" width="300" alt="Pawl - Vista Lateral"></td>
-  </tr>
-</table>
+#### Mecanismo com Servo Montado
 
 <table>
   <tr>
-    <td><img src="./imagens/ratchet_alpha_pawl_detalhe.jpg" width="300" alt="Pawl - Detalhe"></td>
-    <td><img src="./imagens/ratchet_alpha_pawl_modulo_traseira.jpg" width="300" alt="Pawl dentro do Módulo"></td>
-    <td><img src="./imagens/ratchet_alpha_porta_trilho.jpg" width="300" alt="Porta e Trilho Linear"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_frontal.jpg" width="300" alt="Mecanismo - Vista Frontal"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_traseira.jpg" width="300" alt="Mecanismo - Vista Traseira"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_lateral.jpg" width="300" alt="Mecanismo - Vista Lateral"></td>
   </tr>
 </table>
 
-<img src="./imagens/ratchet_alpha_porta_modulo_detalhe.jpg" width="500" alt="Porta entrando no Módulo - Detalhe">
+Mecanismo completo com servo motor montado. Vista frontal mostra o servo e o linkage. Vista traseira evidencia o pawl engatando nos dentes do ratchet. Vista lateral mostra o perfil completo do conjunto.
+
+#### Pawl (Lingueta)
+
+<img src="./imagens/ratchet_alpha_pawl_detalhe.jpg" width="500" alt="Pawl - Detalhe">
+
+Detalhe do pawl isolado. A ponta engata nos dentes do ratchet para reter a porta.
+
+#### Montagem no Módulo
+
+<table>
+  <tr>
+    <td><img src="./imagens/ratchet_alpha_pawl_modulo_traseira.jpg" width="300" alt="Mecanismo no Módulo"></td>
+    <td><img src="./imagens/ratchet_alpha_porta_modulo_detalhe.jpg" width="300" alt="Zoom - Porta no Módulo"></td>
+    <td><img src="./imagens/ratchet_alpha_porta_trilho.jpg" width="300" alt="Porta e Trilho"></td>
+  </tr>
+</table>
+
+Mecanismo montado no módulo do paraquedas. Primeira foto: vista traseira com pawl visível. Segunda: zoom na porta entrando no módulo. Terceira: porta deslizando no trilho linear.
 
 **Teste inicial (alpha)** — Validação de conceito com impressão 3D.
 
