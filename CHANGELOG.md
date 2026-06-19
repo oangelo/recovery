@@ -13,6 +13,11 @@ e este projeto segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 - Testes de campo com carga real
 - Modelos 3D do mecanismo (STL/STEP)
 - Vídeo de demonstração
+- Documentação do mecanismo de expulsão do nose cone
+
+### Adicionado
+- Documentação de design do sistema (DESIGN.md)
+- Documentação do mecanismo linear ratchet and pawl (MECANISMO_RATCHET.md)
 
 ## [0.1.0] - 2026-06-15
 

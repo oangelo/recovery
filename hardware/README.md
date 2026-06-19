@@ -6,6 +6,15 @@
 
 ---
 
+## Documentação de Design
+
+Para decisões de design e detalhes dos mecanismos:
+
+- **[Design do Sistema](../docs/DESIGN.md)** — Visão geral da arquitetura e princípios de design
+- **[Linear Ratchet and Pawl](../docs/MECANISMO_RATCHET.md)** — Mecanismo da porta lateral do paraquedas
+
+---
+
 ## Diagrama de Operação
 
 ```

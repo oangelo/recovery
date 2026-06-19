@@ -46,6 +46,8 @@ recovery/
 ├── docs/                       # Documentação técnica
 │   ├── hardware/              # Esquemáticos mecânicos
 │   ├── diagrams/              # Fluxogramas e diagramas
+│   ├── DESIGN.md              # Decisões de design do sistema
+│   ├── MECANISMO_RATCHET.md   # Linear ratchet and pawl (porta lateral)
 │   ├── INSTALACAO.md          # Guia de montagem
 │   ├── API.md                 # Interface com flight-computer
 │   ├── CALIBRACAO.md          # Procedimentos de calibração
@@ -102,6 +104,8 @@ recovery/
 
 ## Documentação
 
+- [Design do Sistema](./docs/DESIGN.md) — Arquitetura e decisões de design
+- [Mecanismo Linear Ratchet](./docs/MECANISMO_RATCHET.md) — Porta lateral do paraquedas
 - [Guia de Montagem Detalhado](./docs/INSTALACAO.md)
 - [Hardware e Especificações](./hardware/README.md)
 - [Interface com Flight-Computer](./docs/API.md)
@@ -114,6 +118,8 @@ recovery/
 
 - [x] Definição do mecanismo (servo + mola)
 - [x] Seleção de componentes
+- [x] Documentação de design do sistema
+- [x] Documentação do mecanismo linear ratchet
 - [ ] Protótipo mecânico
 - [ ] Testes de vibração
 - [ ] Testes de campo
