@@ -39,7 +39,7 @@ O mecanismo **linear ratchet and pawl** é responsável por reter e liberar a po
 
 ### 2.1 Diagrama Geral
 
-<img src="imagens/linear_ratchet_pawl_v1_diagrama.jpg" width="500" alt="Linear Ratchet and Pawl - Diagrama">
+<img src="imagens/linear_ratchet_pawl_v1_lateral.jpg" width="500" alt="Linear Ratchet and Pawl - Vista Lateral">
 
 <!-- TODO: Adicionar descrição detalhada do diagrama -->
 
