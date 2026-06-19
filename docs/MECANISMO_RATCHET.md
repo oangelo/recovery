@@ -58,6 +58,28 @@ O mecanismo **linear ratchet and pawl** é responsável por reter e liberar a po
 <!-- TODO: Adicionar imagem da porta no trilho -->
 <!-- TODO: Documentar: guia/trilho, curso de abertura, vedação -->
 
+### 2.5 Protótipo Alpha
+
+<table>
+  <tr>
+    <td><img src="./imagens/ratchet_alpha_pawl_frontal.jpg" width="300" alt="Pawl - Vista Frontal"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_traseira.jpg" width="300" alt="Pawl - Vista Traseira"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_lateral.jpg" width="300" alt="Pawl - Vista Lateral"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="./imagens/ratchet_alpha_pawl_detalhe.jpg" width="300" alt="Pawl - Detalhe"></td>
+    <td><img src="./imagens/ratchet_alpha_pawl_modulo_traseira.jpg" width="300" alt="Pawl dentro do Módulo"></td>
+    <td><img src="./imagens/ratchet_alpha_porta_trilho.jpg" width="300" alt="Porta e Trilho Linear"></td>
+  </tr>
+</table>
+
+<img src="./imagens/ratchet_alpha_porta_modulo_detalhe.jpg" width="500" alt="Porta entrando no Módulo - Detalhe">
+
+**Teste inicial (alpha)** — Validação de conceito com impressão 3D.
+
 ---
 
 ## 3. Acionamento do Pawl
