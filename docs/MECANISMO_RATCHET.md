@@ -113,7 +113,28 @@ O solenoide deve ser montado **perpendicularmente** ao eixo do foguete para evit
 
 Utiliza **bell crank** (ver 1.2) para converter o movimento perpendicular do solenoide no movimento linear necessário para desengatar o pawl.
 
-<!-- TODO: Condições para migração, testes necessários -->
+**Desenho técnico (versão inicial):**
+
+<a href="./imagens/solenoid_camisa_magnetica_v2.pdf">Desenho do Solenoid - Camisa Magnética v2 (PDF)</a>
+
+> **Nota:** Desenho gerado por IA — posicionamento das componentes precisa de correção. Versão preliminar para referência.
+
+**Especificações do solenoid:**
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Tensão | 12V DC |
+| Curso | 5mm |
+| Força @ 5mm | 0.5 kgf |
+| Corrente máxima | 2.47A (pulsos < 5s) |
+| Pino | Ø8mm, aço 1008/1010 |
+| Bobina | 930 espiras, fio 0.5mm AWG 24 |
+
+**Vantagem:** Acionamento mais rápido que motor servo. Quando o foguete está caindo, cada segundo conta.
+
+**Limitação:** Curso de 5mm é insuficiente — precisariam de mais. Por ora, o motor servo está funcionando e será mantido.
+
+<!-- TODO: Avaliar solenoid com maior curso ou mecanismo de amplificação -->
 
 ---
 
