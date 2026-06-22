@@ -35,8 +35,10 @@ O **bell crank** converte movimento linear em outra direção, tipicamente 90°.
 
 **Propriedades:**
 - Conversão de direção de força
-- Sem amplificação (1:1)
+- Amplificação de força (quando braços têm tamanhos distintos)
 - Simplicidade mecânica
+
+No protótipo alpha, o bell crank utiliza braços de tamanhos diferentes para amplificar a força do motor. Isso permite usar uma mola mais forte com um motor mais fraco, mantendo a capacidade de abrir a porta.
 
 ---
 
@@ -54,6 +56,12 @@ O mecanismo de recuperação utiliza os mecanismos acima para reter e liberar a 
 | Alinhamento | Precisão alta — pino deve coincidir com furo | Tolerante — dentes engatam progressivamente |
 | Fechamento | Posição única de fechamento | Dinâmico — empurra e trava em qualquer ponto do curso |
 | Robustez | Sensível a vibração e desgaste | Distribui carga ao longo dos dentes |
+
+**Contexto de fabricação:**
+
+O foguete é montado com múltiplas partes, em um processo complexo e demorado. Ter um mecanismo que permite fechamento dinâmico — sem precisar buscar uma posição exata — simplifica significativamente a montagem.
+
+Além disso, não dispomos de ferramentas de precisão, e os materiais utilizados nos protótipos (como tubos de PVC) são resistentes mas deformáveis. Mecanismos tolerantes são mais adequados para essas condições.
 
 ---
 
