@@ -10,7 +10,7 @@
 
 ### 1.1 Cremalheira e Trava (Ratchet and Pawl)
 
-<img src="./imagens/linear_ratchet_pawl_v1_lateral.jpg" width="500" alt="Ratchet and Pawl">
+<img src="./imagens/linear_ratchet_pawl_v1_lateral.jpg" width="300" alt="Ratchet and Pawl">
 
 O mecanismo **ratchet and pawl** permite movimento em uma direção enquanto trava o movimento reverso. Consiste em:
 - **Cremalheira (ratchet):** Barra linear com dentes assimétricos
@@ -27,7 +27,7 @@ O mecanismo **ratchet and pawl** permite movimento em uma direção enquanto tra
 
 ### 1.2 Alavanca Angular (Bell Crank)
 
-<img src="./imagens/ratchet_alpha_bell_crank.jpg" width="500" alt="Bell Crank">
+<img src="./imagens/ratchet_alpha_bell_crank.jpg" width="300" alt="Bell Crank">
 
 O **bell crank** converte movimento linear em outra direção, tipicamente 90°. Consiste em:
 - **Alavanca:** Braço rígido com pivô central
@@ -81,7 +81,7 @@ Mecanismo completo com servo motor montado. Vista frontal mostra o servo e o lin
 
 #### Pawl (Lingueta)
 
-<img src="./imagens/ratchet_alpha_pawl_detalhe.jpg" width="500" alt="Pawl - Detalhe">
+<img src="./imagens/ratchet_alpha_pawl_detalhe.jpg" width="300" alt="Pawl - Detalhe">
 
 Detalhe do pawl isolado. A ponta engata nos dentes do ratchet para reter a porta.
 
