@@ -102,7 +102,30 @@ Mecanismo montado no módulo do paraquedas. Primeira foto: vista traseira com pa
 
 ### 3.2 Solenoide (futuro)
 
-<!-- TODO: Documentar vantagens, desafios, condições para migração -->
+**Vantagens:**
+- Movimento linear direto
+- Resposta rápida (~10-50ms)
+- Simplicidade mecânica
+
+**Desafios:**
+- Curso curto típico (5-15mm)
+- Força vs. consumo de corrente
+- Necessita driver específico (não PWM direto)
+
+**Orientação do Solenoide**
+
+O solenoide deve ser montado **perpendicularmente** ao eixo do foguete. Durante o lançamento, a aceleração pode gerar forças inerciais no pino do solenoide (que é metálico e mais pesado que as partes poliméricas do mecanismo). Se o solenoide estiver alinhado com o eixo do foguete, a força de aceleração pode vencer a mola de retorno e abrir a porta prematuramente.
+
+Para mudar a direção da força do solenoide de perpendicular para linear (ao longo da porta), utiliza-se um **bell crank** (alavanca angular):
+
+<img src="./imagens/ratchet_alpha_bell_crank.jpg" width="500" alt="Bell Crank - Mudança de direção de força">
+
+O bell crank converte o movimento linear perpendicular do solenoide no movimento linear necessário para desengatar o pawl, mantendo o solenoide protegido das forças de aceleração do voo.
+
+**Condições para migração:**
+- Validar que o curso do solenoide é suficiente para desengatar o pawl via bell crank
+- Garantir força adequada contra pressão aerodinâmica na porta
+- Teste de vibração com solenoide perpendicular
 
 ---
 
